@@ -1,0 +1,27 @@
+{
+  "standard": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "shouldSucceed": true
+  },
+  "performance": {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "shouldSucceed": true
+  },
+  "locked": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "shouldSucceed": false
+  },
+  "problem": {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "shouldSucceed": true
+  },
+  "invalid": {
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "shouldSucceed": false
+  }
+}

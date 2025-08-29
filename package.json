@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:ui": "npx playwright test",
+
+    "test:ui:headed": "npx playwright test --headed --project=chromium",
+    "test:ui:debug": "cross-env PWDEBUG=1 npx playwright test",
+    "test:ui:grep": "npx playwright test --grep @smoke",
+
+    "report:ui": "npx playwright show-report reports/ui",
+
+    "allure:generate": "allure generate ./reports/allure --clean -o ./reports/allure-report",
+    "allure:open": "allure open ./reports/allure-report",
+    "test:ui:allure": "npm run test:ui && npm run allure:generate && npm run allure:open"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +22,12 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "allure-playwright": "^3.3.2",
+    "playwright": "^1.54.1",
+    "typescript": "^5.8.3"
   }
 }
