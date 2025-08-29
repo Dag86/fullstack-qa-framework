@@ -1,0 +1,26 @@
+{
+  "backpack": {
+    "name": "Sauce Labs Backpack",
+    "dataTestName": "sauce-labs-backpack"
+  },
+  "bike": {
+    "name": "Sauce Labs Bike Light",
+    "dataTestName": "sauce-labs-bike-light"
+  },
+  "bolt": {
+    "name": "Sauce Labs Bolt TShirt",
+    "dataTestName": "sauce-labs-bolt-tshirt"
+  },
+  "jacket": {
+    "name": "Sauce Labs Fleece Jacket",
+    "dataTestName": "sauce-labs-fleece-jacket"
+  },
+  "onesie": {
+    "name": "Sauce Labs Onesie",
+    "dataTestName": "sauce-labs-onesie"
+  },
+  "tshirt": {
+    "name": "Test.allTheThings() T-Shirt (Red)",
+    "dataTestName": "test.allthethings()-t-shirt-red"
+  }
+}
