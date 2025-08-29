@@ -8,7 +8,8 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node","playwright"]
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]

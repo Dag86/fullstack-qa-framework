@@ -5,3 +5,7 @@ reports/
 .vscode/
 coverage/
 allure-results/
+playwright-report/
+test-results/
+videos/
+reports/

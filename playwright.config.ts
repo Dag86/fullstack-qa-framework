@@ -3,7 +3,8 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 export default defineConfig({
-  testDir: './tests/ui',
+  testDir: './tests',
+  testMatch: /.*\.(spec|test)\.(ts|js)/,
   workers: 2, // Use a single worker for simplicity
   use: {
     baseURL: process.env.BASE_URL ?? 'https://www.saucedemo.com',
